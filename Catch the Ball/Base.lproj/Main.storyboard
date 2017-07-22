@@ -17,36 +17,43 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleAspectFit" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="box.png" translatesAutoresizingMaskIntoConstraints="NO" id="g4f-EF-39s">
-                                <rect key="frame" x="0.0" y="303" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pink.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nnb-SK-pxU">
-                                <rect key="frame" x="298" y="423" width="18" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="orange.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qhe-V6-wJ1">
-                                <rect key="frame" x="307" y="504" width="22" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="black.png" translatesAutoresizingMaskIntoConstraints="NO" id="CsM-G0-8RF">
-                                <rect key="frame" x="290" y="587" width="30" height="30"/>
+                                <rect key="frame" x="16" y="303" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap to Start" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWT-7o-1bj">
-                                <rect key="frame" x="98" y="192" width="178" height="57"/>
+                                <rect key="frame" x="98" y="186" width="178" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="orange.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qhe-V6-wJ1">
+                                <rect key="frame" x="254" y="443" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="black.png" translatesAutoresizingMaskIntoConstraints="NO" id="CsM-G0-8RF">
+                                <rect key="frame" x="237" y="526" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pink.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nnb-SK-pxU">
+                                <rect key="frame" x="341" y="345" width="18" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="black" destination="CsM-G0-8RF" id="juc-oA-48x"/>
+                        <outlet property="box" destination="g4f-EF-39s" id="VcU-bW-aGf"/>
+                        <outlet property="orange" destination="Qhe-V6-wJ1" id="A9d-7U-VNY"/>
+                        <outlet property="pink" destination="Nnb-SK-pxU" id="m49-TU-pRo"/>
+                        <outlet property="startLabel" destination="VWT-7o-1bj" id="AbA-Nj-vjH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

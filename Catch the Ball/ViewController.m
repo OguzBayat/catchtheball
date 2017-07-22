@@ -13,6 +13,7 @@
 @end
 
 @implementation ViewController
+@synthesize startLabel,pink,orange,black;
 
 - (void)viewDidLoad {
     [super viewDidLoad];

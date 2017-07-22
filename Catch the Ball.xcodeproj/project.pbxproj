@@ -522,6 +522,7 @@
 				17BF884A1F2372C4001D311A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17BF884B1F2372C4001D311A /* Build configuration list for PBXNativeTarget "Catch the BallTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +531,7 @@
 				17BF884D1F2372C4001D311A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17BF884E1F2372C4001D311A /* Build configuration list for PBXNativeTarget "Catch the BallUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +540,7 @@
 				17BF88501F2372C4001D311A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
