@@ -12,9 +12,13 @@
 		17BF88261F2372C4001D311A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BF88251F2372C4001D311A /* ViewController.m */; };
 		17BF88291F2372C4001D311A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BF88271F2372C4001D311A /* Main.storyboard */; };
 		17BF882B1F2372C4001D311A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17BF882A1F2372C4001D311A /* Assets.xcassets */; };
-		17BF882E1F2372C4001D311A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BF882C1F2372C4001D311A /* LaunchScreen.storyboard */; };
 		17BF88391F2372C4001D311A /* Catch_the_BallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BF88381F2372C4001D311A /* Catch_the_BallTests.m */; };
 		17BF88441F2372C4001D311A /* Catch_the_BallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BF88431F2372C4001D311A /* Catch_the_BallUITests.m */; };
+		17BF88551F237349001D311A /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 17BF88511F237349001D311A /* black.png */; };
+		17BF88561F237349001D311A /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 17BF88521F237349001D311A /* box.png */; };
+		17BF88571F237349001D311A /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 17BF88531F237349001D311A /* orange.png */; };
+		17BF88581F237349001D311A /* pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 17BF88541F237349001D311A /* pink.png */; };
+		17BF885A1F237367001D311A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17BF88591F237367001D311A /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +47,6 @@
 		17BF88251F2372C4001D311A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		17BF88281F2372C4001D311A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17BF882A1F2372C4001D311A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		17BF882D1F2372C4001D311A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17BF882F1F2372C4001D311A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17BF88341F2372C4001D311A /* Catch the BallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Catch the BallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BF88381F2372C4001D311A /* Catch_the_BallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Catch_the_BallTests.m; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		17BF883F1F2372C4001D311A /* Catch the BallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Catch the BallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BF88431F2372C4001D311A /* Catch_the_BallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Catch_the_BallUITests.m; sourceTree = "<group>"; };
 		17BF88451F2372C4001D311A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BF88511F237349001D311A /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		17BF88521F237349001D311A /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
+		17BF88531F237349001D311A /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		17BF88541F237349001D311A /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pink.png; sourceTree = "<group>"; };
+		17BF88591F237367001D311A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		17BF88121F2372C4001D311A = {
 			isa = PBXGroup;
 			children = (
+				17BF88591F237367001D311A /* Default-568h@2x.png */,
 				17BF881D1F2372C4001D311A /* Catch the Ball */,
 				17BF88371F2372C4001D311A /* Catch the BallTests */,
 				17BF88421F2372C4001D311A /* Catch the BallUITests */,
@@ -107,7 +116,10 @@
 				17BF88251F2372C4001D311A /* ViewController.m */,
 				17BF88271F2372C4001D311A /* Main.storyboard */,
 				17BF882A1F2372C4001D311A /* Assets.xcassets */,
-				17BF882C1F2372C4001D311A /* LaunchScreen.storyboard */,
+				17BF88511F237349001D311A /* black.png */,
+				17BF88521F237349001D311A /* box.png */,
+				17BF88531F237349001D311A /* orange.png */,
+				17BF88541F237349001D311A /* pink.png */,
 				17BF882F1F2372C4001D311A /* Info.plist */,
 				17BF881E1F2372C4001D311A /* Supporting Files */,
 			);
@@ -249,9 +261,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17BF882E1F2372C4001D311A /* LaunchScreen.storyboard in Resources */,
 				17BF882B1F2372C4001D311A /* Assets.xcassets in Resources */,
 				17BF88291F2372C4001D311A /* Main.storyboard in Resources */,
+				17BF88551F237349001D311A /* black.png in Resources */,
+				17BF88571F237349001D311A /* orange.png in Resources */,
+				17BF88561F237349001D311A /* box.png in Resources */,
+				17BF885A1F237367001D311A /* Default-568h@2x.png in Resources */,
+				17BF88581F237349001D311A /* pink.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,14 +336,6 @@
 				17BF88281F2372C4001D311A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		17BF882C1F2372C4001D311A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				17BF882D1F2372C4001D311A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
