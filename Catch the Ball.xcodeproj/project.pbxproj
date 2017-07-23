@@ -19,6 +19,7 @@
 		17BF88571F237349001D311A /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 17BF88531F237349001D311A /* orange.png */; };
 		17BF88581F237349001D311A /* pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 17BF88541F237349001D311A /* pink.png */; };
 		17BF885A1F237367001D311A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17BF88591F237367001D311A /* Default-568h@2x.png */; };
+		17BF885D1F24B783001D311A /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BF885C1F24B783001D311A /* ResultViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		17BF88531F237349001D311A /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
 		17BF88541F237349001D311A /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pink.png; sourceTree = "<group>"; };
 		17BF88591F237367001D311A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		17BF885B1F24B783001D311A /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		17BF885C1F24B783001D311A /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				17BF88241F2372C4001D311A /* ViewController.h */,
 				17BF88251F2372C4001D311A /* ViewController.m */,
 				17BF88271F2372C4001D311A /* Main.storyboard */,
+				17BF885B1F24B783001D311A /* ResultViewController.h */,
+				17BF885C1F24B783001D311A /* ResultViewController.m */,
 				17BF882A1F2372C4001D311A /* Assets.xcassets */,
 				17BF88511F237349001D311A /* black.png */,
 				17BF88521F237349001D311A /* box.png */,
@@ -295,6 +300,7 @@
 				17BF88261F2372C4001D311A /* ViewController.m in Sources */,
 				17BF88231F2372C4001D311A /* AppDelegate.m in Sources */,
 				17BF88201F2372C4001D311A /* main.m in Sources */,
+				17BF885D1F24B783001D311A /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
