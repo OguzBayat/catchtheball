@@ -33,6 +33,11 @@
     //Score
     int score;
     UILabel *scoreLabel;
+    
+    //Sound
+    AVAudioPlayer *hitSound;
+    AVAudioPlayer *overSound;
+    
 }
 @end
 
@@ -75,22 +80,32 @@
     [scoreLabel setFont:[UIFont fontWithName:@"GillSans" size:18]];
     [self.view addSubview:scoreLabel];
     
+    //Prepare sounds
+    NSURL *hitURL = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/hit.wav", [[NSBundle mainBundle] resourcePath]]];
+    NSURL *overURL = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/over.wav", [[NSBundle mainBundle] resourcePath]]];
+    
+    hitSound = [[AVAudioPlayer alloc] initWithContentsOfURL:hitURL error:nil];
+    overSound = [[AVAudioPlayer alloc] initWithContentsOfURL:overURL error:nil];
+    
 }
 
 - (void) checkHit {
     
     if (CGRectIntersectsRect(box.frame, pink.frame)) {
+        [hitSound play];
         score += 30;
         pink.center = CGPointMake(-50, -50);
     }
     
     if (CGRectIntersectsRect(box.frame, orange.frame)) {
+        [hitSound play];
         score += 10;
         orange.center = CGPointMake(-50, -50);
     }
     
     if (CGRectIntersectsRect(box.frame, black.frame)) {
         //game over
+        [overSound play];
         [timer invalidate]; // stop the timer
         pink.hidden = YES;
         orange.hidden = YES;
